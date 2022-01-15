@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 2000px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(50%);
+}
+.data{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 10% 100%, 10% 10%);
+}
+
+.star{
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  clip-path: polygon(50% 0,64% 30%,100% 50%, 62% 63%, 50% 100%, 32% 62%, 0 50%,37% 30%);
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0 38%);
+}
+
+.mon{
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+  transform: rotate(20deg);
+  clip-path: polygon(30% 26%, 36% 46%, 54% 64%, 93% 76%, 71% 88%, 42% 93%, 15% 81%, 1% 56%, 6% 25%, 26% 0);
+}
